@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: service-registry
+  config:
+    import: configserver:http://localhost:8888
+
+#server:
+#  port: 8761
+#
+#eureka:
+#  server:
+#    enable-self-preservation: false
+#  client:
+#    fetch-registry: true
+#    registrerWithEureka: false
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka
+#  instance:
+#    preferIdAddress: true
+
+# I put all this config on my config server after I test they were okay.
+
+#I will deactivate mode 'Self Preservation' of Eureka server. This configuration can't be on production environment!!!
+#fetch-registry: true - If I want that servers goes to fetch de service registry or not. Maybe I should read more abut this property.
+
+#service-url:
+#  defaultZone: http://localhost:8761/eureka --- where is configured this service.
+
+#preferIdAddress: false - I preferred to use the service name or his IP? Now I will use the 'true' value, because I have to use Docker on the services later, and it's more convenient like that.
+
+#After you prove basic config you have to agg the 'import config' on application level. Remember, all the configuration will have to be n the config server, cuz like that we van centralize and organize, make a more efficient for changes and etc.
+#So you put on this part where the configs are.
+#import: optionalconfigserver:http://localhost:8888 --  You can use this setting to prevent your application from crashing if it doesn't find the config server.
+#It probably helps a lot depending on the order in which you decide to create your app.

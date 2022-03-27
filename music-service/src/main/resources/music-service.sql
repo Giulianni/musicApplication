@@ -1,0 +1,12 @@
+INSERT INTO music(name, genre, artist, url_stream) VALUES('Quit Playing Games (With My Heart)', 'Pop', 'Backstreet Boys', 'https://open.spotify.com/track/0Uqs7ilt5kGX9NzFDWTBrP?si=b613caca1e5a4df0');
+INSERT INTO music(name, genre, artist, url_stream) VALUES('Unfaithful', 'Pop', 'Rihanna', 'https://open.spotify.com/track/1oh6hjPd82XlGFQGUh2Jfa?si=275b8ac3137a4bba');
+INSERT INTO music(name, genre, artist, url_stream) VALUES('Sunflower', 'Hip Hop', 'Post Malone', 'https://open.spotify.com/track/0RiRZpuVRbi7oqRdSMwhQY?si=83157dabf60d4520');
+INSERT INTO music(name, genre, artist, url_stream) VALUES('BED', 'Dance', 'Joel Corry, RAYE, David Guetta', 'https://open.spotify.com/track/7jXQUrVhEpXdymfFWNDnQW?si=f0eb2e27d33a4efb');
+INSERT INTO music(name, genre, artist, url_stream) VALUES('Low (ft. T-Pain)', 'Hip Hop', 'Flo Rida, T-Pain', 'https://open.spotify.com/track/0CAfXk7DXMnon4gLudAp7J?si=4b8a047fa4aa4cdc');
+INSERT INTO music(name, genre, artist, url_stream) VALUES('Put Your Records On', 'R&B', 'Corinne Bailey Rae', 'https://open.spotify.com/track/2nGFzvICaeEWjIrBrL2RAx?si=7128a366a75a468e');
+INSERT INTO music(name, genre, artist, url_stream) VALUES('BICHOTA', 'Reggaeton', 'KAROL G', 'https://open.spotify.com/track/7vrJn5hDSXRmdXoR30KgF1?si=efa6eda2bc3c4906');
+INSERT INTO music(name, genre, artist, url_stream) VALUES('good 4 u', 'Pop', 'Olivia Rodrigo', 'https://open.spotify.com/track/6PERP62TejQjgHu81OHxgM?si=e781eb57df3f4dd7');
+INSERT INTO music(name, genre, artist, url_stream) VALUES('It''s Time', 'Rock', 'Imagine Dragons', 'https://open.spotify.com/track/7MXlTgQeo3IVlMpLnZuhxc?si=597f47ec21b84696');
+INSERT INTO music(name, genre, artist, url_stream) VALUES('The Motto', 'Dance', 'Tiësto, Ava Max', 'https://open.spotify.com/track/18asYwWugKjjsihZ0YvRxO?si=14cd1d19ad674b3c');
+INSERT INTO music(name, genre, artist, url_stream) VALUES('Mr. Brightside', 'Rock', 'The Killers', 'https://open.spotify.com/track/003vvx7Niy0yvhvHt4a68B?si=17cc46ff687b448a');
+INSERT INTO music(name, genre, artist, url_stream) VALUES('PROBLEMA', 'Reggaeton', 'Daddy Yankee', 'https://open.spotify.com/track/2dl5K2ScW7jYhAhuem06cm?si=c3f5f2b581fc4bcf');
